@@ -72,6 +72,10 @@ h3.criterion {
   margin: 4ex 2ex 0ex;
 }
 
+div.thought, div.term {
+  padding-top: 5px;
+}
+
 p.about-page, ul.timeline, div.thought p {
   margin:1ex 2ex 1ex 6ex;
 }
