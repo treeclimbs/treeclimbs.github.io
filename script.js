@@ -1,4 +1,4 @@
-function sortTable(col,target_id) {
+function sortTable(col,target_id,reverse_sort) {
     var table, rows, switching, i, x, y, shouldSwitch;
     console.log("Sorting",target_id,"by column #",col);
     table = document.getElementById(target_id);
@@ -20,10 +20,18 @@ function sortTable(col,target_id) {
         x = rows[i].getElementsByTagName("TD")[col];
         y = rows[i + 1].getElementsByTagName("TD")[col];
         //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
+        if (reverse_sort) {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
         }
       }
       if (shouldSwitch) {
