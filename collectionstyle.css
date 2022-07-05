@@ -16,7 +16,7 @@ hr {
 body {
   margin: 0px;
   max-width: 100vw;
-  background-color:#765;
+  background-color:#654;
 }
 
 main {
@@ -111,7 +111,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2
+  background-color: #765
 }
 
 .indextable {
