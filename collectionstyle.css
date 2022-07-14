@@ -88,8 +88,12 @@ div.term p {
   margin:1ex 4ex 3ex 4ex;
 }
 
-div.example p {
-  margin:1ex 6ex 3ex 6ex;
+div.example p, div.example ul {
+  margin: 1ex 6ex 3ex 6ex;
+}
+
+div.example ul li {
+  padding: .5ex 0ex .5ex ;
 }
 
 ul.timeline {
