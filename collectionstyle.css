@@ -43,6 +43,41 @@ nav {
   text-align: center;
 }
 
+.cat-nav, .cara-page-nav {
+  display: flex;
+  max-width: 780px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: stretch;
+  justify-items: stretch;
+  gap: 6px;
+}
+
+.pagenavlink {
+  background: #543;
+  border-radius: 5px;
+  padding: .5ex 1ex .5ex;
+  width: 17%;
+  font-size: 110%;
+}
+
+.cara-page-nav {
+  max-width: 600px;
+}
+
+.carabinerpagenavlink {
+  width: 100%;
+  border-radius: 0px;
+  font-size: 100%;
+}
+
+.pagenavlink:hover {
+  background: #c95;
+  color:  #543;
+  text-decoration: none;
+}
+
 #titleimg {
   max-width: 800px;
   width: 100vw;
