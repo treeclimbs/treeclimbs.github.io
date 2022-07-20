@@ -1,5 +1,5 @@
-html,body,button {font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;}
-h1,h2,h3,h4,h5,h6 {font-family: Consolas,"Helvetica", "sans-serif"; color:#c95;}
+html,body,button {font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,"Courier New",monospace;}
+h1,h2,h3,h4,h5,h6 {font-family: "Tahoma","Trebuchet MS",Helvetica, "sans-serif"; color:#c95;}
 
 h3 {margin-left: 2ex;}
 h4 {margin: 3ex 0ex 1ex 6ex;}
