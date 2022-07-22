@@ -36,6 +36,11 @@ nav {
   top: 0px;
   background-image: url("images/carabiner-header-image.png");
   width: 580px;
+  background-size: cover;
+}
+
+.wide-nav {
+  width: 780px;
 }
 
 #page-nav {
@@ -83,8 +88,9 @@ nav {
   width: 100vw;
 }
 
+
 #carabiner-page-header, #index-page-header, #cat-page-header {
-  background-image: url("images/carabiner-header-image.png");
+  background-image: url("images/carabiner-header-image-600x150.png");
   width: 600px;
   height: 150px;
   max-width: 600px;
@@ -100,10 +106,19 @@ nav {
   padding-top: 20px;
 }
 
+#carabiner-page-title h1 {
+  font-size: 1.5em;
+}
+
+#index-page-header {
+  background-image: url("images/carabiner-header-image-index.png");
+}
+
 #index-page-header, #cat-page-header {
   width: 800px;
   max-width: 800px;
   background-size: cover;
+  /* height: 200px; */
   height: 200px;
 }
 
