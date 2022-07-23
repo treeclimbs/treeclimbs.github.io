@@ -1,4 +1,4 @@
-html,body,button {color: #ddd; font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,"Courier New",monospace;}
+html,body,button {color: #ccc; font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,"Courier New",monospace;}
 h1,h2,h3,h4,h5,h6 {font-family: "Tahoma","Trebuchet MS",Helvetica, "sans-serif"; color:#eb7;}
 
 h3 {margin-left: 2ex;}
@@ -135,8 +135,12 @@ div.thought, div.term, div.category {
   padding-top: 5px;
 }
 
-p.about-page, ul.timeline, div.thought p {
+.text-block p, .text-block ul, p.about-page, ul.timeline, div.thought p {
   margin:1ex 2ex 1ex 6ex;
+}
+
+p.indent {
+  padding-left: 6ex;
 }
 
 div.term p {
@@ -155,6 +159,10 @@ ul.timeline {
   list-style-type: none;
   margin-left: 14ex;
   text-indent: -7ex;
+}
+
+ul.no-bullet {
+  list-style-type: none;
 }
 
 /* Tables */
@@ -215,6 +223,22 @@ td.description {
   text-align: left;
 }
 
+.left {text-align: left;}
+.right {text-align: right;}
+.center {text-align: center;}
+.top {vertical-align: top;}
+.bottom {vertical-align: bottom;}
+.middle {vertical-align: middle;}
+
+.table-top td {
+  vertical-align: top;
+}
+
+.bold-first td:first-child {font-weight: 900}
+
+#term-markings table td {text-align: left}
+#term-markings table td:first-child {text-align: center}
+
 /* Other */
 .photo-flex-grid a {
   font-size: 0pt;
@@ -251,6 +275,16 @@ img.thumbnail {
 
 img.inline-thumbnail {
   max-height: 30px;
+}
+
+img.rating, img.marking {
+  max-height: 1.5ex;
+  margin-bottom: -.2ex;
+}
+
+img.marking-double {
+  max-height: 3ex;
+  margin-bottom: -.2ex;
 }
 
 img.big-thumb {
