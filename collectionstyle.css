@@ -1,22 +1,22 @@
-html,body,button {font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,"Courier New",monospace;}
-h1,h2,h3,h4,h5,h6 {font-family: "Tahoma","Trebuchet MS",Helvetica, "sans-serif"; color:#c95;}
+html,body,button {color: #ddd; font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,"Courier New",monospace;}
+h1,h2,h3,h4,h5,h6 {font-family: "Tahoma","Trebuchet MS",Helvetica, "sans-serif"; color:#eb7;}
 
 h3 {margin-left: 2ex;}
 h4 {margin: 3ex 0ex 1ex 6ex;}
 
-a {text-decoration: none; color:#c95; font-weight: bold;}
+a {text-decoration: none; color:#eb7; font-weight: bold;}
 a:hover {text-decoration: underline;}
 
 hr {
   margin: 20px 0px 20px;
-  border: 2px solid #c95;
+  border: 2px solid #eb7;
   border-radius: 2px;
 }
 
 body {
   margin: 0px;
   max-width: 100vw;
-  background-color:#654;
+  background-color:#432;
 }
 
 main {
@@ -37,6 +37,7 @@ nav {
   background-image: url("images/carabiner-header-image.png");
   width: 580px;
   background-size: cover;
+  text-align: right;
 }
 
 .wide-nav {
@@ -78,7 +79,7 @@ nav {
 }
 
 .pagenavlink:hover {
-  background: #c95;
+  background: #eb7;
   color:  #543;
   text-decoration: none;
 }
@@ -89,7 +90,7 @@ nav {
 }
 
 
-#carabiner-page-header, #index-page-header, #cat-page-header {
+#carabiner-page-header, #index-page-header, #cat-page-header, #group-page-header {
   background-image: url("images/carabiner-header-image-600x150.png");
   width: 600px;
   height: 150px;
@@ -99,7 +100,7 @@ nav {
   justify-content: center;
 }
 
-#carabiner-page-title, #index-page-title, #cat-page-title {
+#carabiner-page-title, #index-page-title, #cat-page-title, #group-page-title {
   font-family: Consolas;
   font-size: large;
   text-align: center;
@@ -114,7 +115,11 @@ nav {
   background-image: url("images/carabiner-header-image-index.png");
 }
 
-#index-page-header, #cat-page-header {
+#group-page-header {
+  background-image: url("images/carabiner-header-image.png");
+}
+
+#index-page-header, #cat-page-header, #group-page-header {
   width: 800px;
   max-width: 800px;
   background-size: cover;
@@ -155,7 +160,7 @@ ul.timeline {
 /* Tables */
 table {
   border-spacing: 0;
-  background-color:#edc
+  background-color:#654
 }
 
 th, td {
@@ -163,8 +168,13 @@ th, td {
   padding: 8px;
 }
 
+button {
+  color: black;
+  cursor: pointer;
+}
+
 tr:nth-child(even) {
-  background-color: #876
+  background-color: #543
 }
 
 .indextable {
@@ -291,7 +301,7 @@ img.other-thoughts {
 }
 
 .box-border {
-  border:2px solid #c95;
+  border:2px solid #eb7;
 }
 
 
