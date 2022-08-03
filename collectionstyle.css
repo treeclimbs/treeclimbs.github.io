@@ -165,6 +165,12 @@ ul.no-bullet {
   list-style-type: none;
 }
 
+#updates ul {
+  margin-left: 2em;
+  text-indent: -2em;
+  list-style-type: none;
+}
+
 /* Tables */
 table {
   border-spacing: 0;
@@ -274,7 +280,8 @@ img.thumbnail {
 }
 
 img.inline-thumbnail {
-  max-height: 30px;
+  /* max-height: 30px; */
+  max-height: .8em;
 }
 
 img.rating, img.marking {
