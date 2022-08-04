@@ -281,7 +281,8 @@ img.thumbnail {
 
 img.inline-thumbnail {
   /* max-height: 30px; */
-  max-height: .8em;
+  max-height: 1em;
+  margin-bottom: -.1em;
 }
 
 img.rating, img.marking {
