@@ -171,6 +171,10 @@ ul.no-bullet {
   list-style-type: none;
 }
 
+#updates > ul > li{
+  margin-bottom: 1em;
+}
+
 /* Tables */
 table {
   border-spacing: 0;
