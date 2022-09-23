@@ -171,13 +171,13 @@ ul.no-bullet {
   list-style-type: none;
 }
 
-#updates ul {
+#updates ul, #related-sites ul {
   margin-left: 2em;
   text-indent: -2em;
   list-style-type: none;
 }
 
-#updates > ul > li{
+#updates > ul > li, #related-sites > ul > li{
   margin-bottom: 1em;
 }
 
