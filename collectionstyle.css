@@ -161,6 +161,10 @@ div.example ul li {
   font-style: italic;
 }
 
+.quote em {
+  font-style:normal;
+}
+
 ul.timeline {
   list-style-type: none;
   margin-left: 14ex;
