@@ -264,6 +264,8 @@ td.description {
   text-align: left;
 }
 
+.index-page-table {max-width:70%; margin-left: 15%;}
+
 .left {text-align: left;}
 .right {text-align: right;}
 .center {text-align: center;}
@@ -271,11 +273,16 @@ td.description {
 .bottom {vertical-align: bottom;}
 .middle {vertical-align: middle;}
 
+.cells-left td, th{
+  text-align: left;
+}
+
 .table-top td {
   vertical-align: top;
 }
 
 .bold-first td:first-child {font-weight: 900}
+.center-first td:first-child, th:first-child {text-align: center;}
 
 #term-markings table td {text-align: left}
 #term-markings table td:first-child {text-align: center}
