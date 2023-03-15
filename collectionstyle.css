@@ -20,9 +20,13 @@ body {
   background-color:#432;
 }
 
-main {
-  padding: 0px 0px 10px 10px;
+main, .cat-nav {
+  padding-left: 10px;
   width: 780px;
+}
+
+main {
+  padding-bottom: 10px;
 }
 
 /* Titles & Header */
@@ -57,6 +61,8 @@ nav {
   gap: 6px;
 }
 
+
+
 .pagenavlink {
   background: #543;
   border-radius: 5px;
@@ -87,7 +93,7 @@ nav {
 }
 
 
-#carabiner-page-header, #index-page-header, #cat-page-header, #group-page-header {
+#page-header, #carabiner-page-header, #index-page-header, #cat-page-header, #group-page-header, #brand-page-header {
   background-image: url("images/carabiner-header-image-800x200.png");
   width: 800px;
   height: 150px;
@@ -97,7 +103,7 @@ nav {
   justify-content: center;
 }
 
-#carabiner-page-title, #index-page-title, #cat-page-title, #group-page-title {
+#page-title, #carabiner-page-title, #index-page-title, #cat-page-title, #group-page-title, #brand-page-title {
   font-family: Consolas;
   font-size: large;
   text-align: center;
@@ -112,11 +118,11 @@ nav {
   background-image: url("images/carabiner-header-image-index.png");
 }
 
-#group-page-header {
+#page-header, #group-page-header, #brand-page-header {
   background-image: url("images/carabiner-header-image.png");
 }
 
-#index-page-header, #cat-page-header, #group-page-header {
+#page-header, #index-page-header, #cat-page-header, #group-page-header, #brand-page-header {
   width: 800px;
   max-width: 800px;
   background-size: cover;
@@ -128,7 +134,7 @@ h3.criterion {
   margin: 4ex 2ex 0ex;
 }
 
-div.thought, div.term, div.category {
+div.thought, div.term {
   padding-top: 5px;
 }
 
@@ -230,6 +236,7 @@ tr:nth-child(odd) {
 .indextable {
   max-width: 780px;
   width: 100vw;
+  margin-top: 1em;
 }
 
 td.description {
